@@ -20,11 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'py_node = my_py_pkg.my_first_node:main',
-            'radiostation = my_py_pkg.radiostation:main',
-            'radioreceiver = my_py_pkg.radioreceiver:main',
-            'calculator_server = my_py_pkg.calculator_server:main',
-            'calculator_client = my_py_pkg.calculator_client:main',
+            'py_node = my_py_pkg.my_first_node:main',            
         ],
     },
 )

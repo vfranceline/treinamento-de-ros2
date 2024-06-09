@@ -1,7 +1,3 @@
 [console_scripts]
-calculator_client = my_py_pkg.calculator_client:main
-calculator_server = my_py_pkg.calculator_server:main
 py_node = my_py_pkg.my_first_node:main
-radioreceiver = my_py_pkg.radioreceiver:main
-radiostation = my_py_pkg.radiostation:main
 

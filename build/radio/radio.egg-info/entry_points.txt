@@ -1,0 +1,4 @@
+[console_scripts]
+radioreceiver = radio.radioreceiver:main
+radiostation = radio.radiostation:main
+
