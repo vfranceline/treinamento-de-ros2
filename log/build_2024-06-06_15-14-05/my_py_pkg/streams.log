@@ -1,0 +1,43 @@
+[1.404s] Invoking command in '/home/vfran/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/vfran/ros2_ws/build/my_py_pkg/build
+[2.001s] running develop
+[2.002s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.002s]   warnings.warn(
+[2.403s] Removing /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.461s] Invoked command in '/home/vfran/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/vfran/ros2_ws/build/my_py_pkg/build
+[2.466s] Invoking command in '/home/vfran/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vfran/ros2_ws/build/my_py_pkg/build install --record /home/vfran/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[3.002s] running egg_info
+[3.003s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[3.004s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[3.004s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[3.004s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[3.004s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[3.008s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.010s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[3.011s] running build
+[3.011s] running build_py
+[3.011s] copying my_py_pkg/calculator_server.py -> /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[3.012s] running install
+[3.012s] running install_lib
+[3.014s] creating /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.014s] copying /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.015s] copying /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.015s] copying /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/radioreceiver.py -> /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.015s] copying /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/calculator_server.py -> /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.015s] copying /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/radiostation.py -> /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[3.016s] byte-compiling /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[3.017s] byte-compiling /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[3.018s] byte-compiling /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/radioreceiver.py to radioreceiver.cpython-310.pyc
+[3.018s] byte-compiling /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/calculator_server.py to calculator_server.cpython-310.pyc
+[3.019s] byte-compiling /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/radiostation.py to radiostation.cpython-310.pyc
+[3.020s] running install_data
+[3.020s] copying resource/my_py_pkg -> /home/vfran/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[3.020s] copying package.xml -> /home/vfran/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[3.020s] running install_egg_info
+[3.024s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[3.026s] running install_scripts
+[3.071s] Installing calculator_server script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.071s] Installing py_node script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.071s] Installing radioreceiver script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.072s] Installing radiostation script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.072s] writing list of installed files to '/home/vfran/ros2_ws/build/my_py_pkg/install.log'
+[3.123s] Invoked command in '/home/vfran/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vfran/ros2_ws/build/my_py_pkg/build install --record /home/vfran/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

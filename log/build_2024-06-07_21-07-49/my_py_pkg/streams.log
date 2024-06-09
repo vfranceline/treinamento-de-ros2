@@ -1,0 +1,28 @@
+[0.787s] Invoking command in '/home/vfran/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vfran/ros2_ws/build/my_py_pkg/build install --record /home/vfran/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.070s] running egg_info
+[1.071s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.072s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.072s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.072s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.073s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.075s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.076s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.076s] running build
+[1.076s] running build_py
+[1.077s] copying my_py_pkg/calculator_client.py -> /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.077s] running install
+[1.077s] running install_lib
+[1.078s] copying /home/vfran/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/calculator_client.py -> /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.079s] byte-compiling /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/calculator_client.py to calculator_client.cpython-310.pyc
+[1.080s] running install_data
+[1.080s] running install_egg_info
+[1.082s] removing '/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.082s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.084s] running install_scripts
+[1.111s] Installing calculator_client script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.111s] Installing calculator_server script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.112s] Installing py_node script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.112s] Installing radioreceiver script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.112s] Installing radiostation script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.112s] writing list of installed files to '/home/vfran/ros2_ws/build/my_py_pkg/install.log'
+[1.175s] Invoked command in '/home/vfran/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vfran/ros2_ws/build/my_py_pkg/build install --record /home/vfran/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

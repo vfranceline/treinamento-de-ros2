@@ -1,0 +1,22 @@
+[0.504s] Invoking command in '/home/vfran/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vfran/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
+[0.716s] running develop
+[0.716s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.716s]   warnings.warn(
+[0.843s] running egg_info
+[0.843s] writing my_py_pkg.egg-info/PKG-INFO
+[0.844s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.844s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.844s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.844s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.845s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.846s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.847s] running build_ext
+[0.847s] Creating /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[0.848s] Installing py_node script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.848s] Installing radiostation script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.848s] 
+[0.848s] Installed /home/vfran/ros2_ws/build/my_py_pkg
+[0.848s] running symlink_data
+[0.848s] symbolically linking /home/vfran/ros2_ws/build/my_py_pkg/resource/my_py_pkg -> /home/vfran/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.849s] symbolically linking /home/vfran/ros2_ws/build/my_py_pkg/package.xml -> /home/vfran/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.885s] Invoked command in '/home/vfran/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/vfran/ros2_ws/build/my_py_pkg/build --no-deps symlink_data --force
