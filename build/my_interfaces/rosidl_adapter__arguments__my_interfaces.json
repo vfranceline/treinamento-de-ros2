@@ -1,6 +1,7 @@
 {
   "package_name": "my_interfaces",
   "non_idl_tuples": [
-    "/home/vfran/ros2_ws/src/my_interfaces:msg/HardwareStatus.msg"
+    "/home/vfran/ros2_ws/src/my_interfaces:msg/HardwareStatus.msg",
+    "/home/vfran/ros2_ws/src/my_interfaces:srv/ComputeRectangleArea.srv"
   ]
 }

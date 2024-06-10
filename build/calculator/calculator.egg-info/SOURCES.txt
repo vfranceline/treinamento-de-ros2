@@ -11,6 +11,7 @@ setup.py
 calculator/__init__.py
 calculator/calculator_client.py
 calculator/calculator_server.py
+calculator/geometric_calculator_server.py
 resource/calculator
 test/test_copyright.py
 test/test_flake8.py

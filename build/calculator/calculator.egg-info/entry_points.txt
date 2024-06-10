@@ -1,4 +1,5 @@
 [console_scripts]
 calculator_client = calculator.calculator_client:main
 calculator_server = calculator.calculator_server:main
+geometric_calculator_server = calculator.geometric_calculator_server:main
 

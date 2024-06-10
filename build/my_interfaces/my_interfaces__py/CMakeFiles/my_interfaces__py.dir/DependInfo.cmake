@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/__init__.py" "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/_hardware_status.py" "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/msg/_hardware_status_s.c" "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/__init__.py" "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_compute_rectangle_area.py" "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/srv/_compute_rectangle_area_s.c" "/home/vfran/ros2_ws/build/my_interfaces/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 
