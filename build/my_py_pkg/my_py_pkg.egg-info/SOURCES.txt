@@ -9,6 +9,7 @@ setup.py
 ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
 ../../build/my_py_pkg/my_py_pkg.egg-info/zip-safe
 my_py_pkg/__init__.py
+my_py_pkg/hw_status_publisher.py
 my_py_pkg/my_first_node.py
 resource/my_py_pkg
 test/test_copyright.py
