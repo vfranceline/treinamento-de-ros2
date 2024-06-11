@@ -1,0 +1,39 @@
+[0.803s] Invoking command in '/home/vfran/ros2_ws/src/basic_calculator': PYTHONPATH=/home/vfran/ros2_ws/build/basic_calculator/prefix_override:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/basic_calculator build --build-base /home/vfran/ros2_ws/build/basic_calculator/build install --record /home/vfran/ros2_ws/build/basic_calculator/install.log --single-version-externally-managed install_data
+[1.096s] running egg_info
+[1.096s] creating ../../build/basic_calculator/basic_calculator.egg-info
+[1.097s] writing ../../build/basic_calculator/basic_calculator.egg-info/PKG-INFO
+[1.097s] writing dependency_links to ../../build/basic_calculator/basic_calculator.egg-info/dependency_links.txt
+[1.097s] writing entry points to ../../build/basic_calculator/basic_calculator.egg-info/entry_points.txt
+[1.098s] writing requirements to ../../build/basic_calculator/basic_calculator.egg-info/requires.txt
+[1.098s] writing top-level names to ../../build/basic_calculator/basic_calculator.egg-info/top_level.txt
+[1.098s] writing manifest file '../../build/basic_calculator/basic_calculator.egg-info/SOURCES.txt'
+[1.100s] reading manifest file '../../build/basic_calculator/basic_calculator.egg-info/SOURCES.txt'
+[1.101s] writing manifest file '../../build/basic_calculator/basic_calculator.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.101s] creating /home/vfran/ros2_ws/build/basic_calculator/build
+[1.101s] creating /home/vfran/ros2_ws/build/basic_calculator/build/lib
+[1.101s] creating /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator
+[1.101s] copying basic_calculator/calculadora_basica_client.py -> /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator
+[1.102s] copying basic_calculator/__init__.py -> /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator
+[1.102s] copying basic_calculator/calculadora_basica_server.py -> /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator
+[1.102s] running install
+[1.102s] running install_lib
+[1.103s] creating /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator
+[1.103s] copying /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator/calculadora_basica_client.py -> /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator
+[1.103s] copying /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator/__init__.py -> /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator
+[1.103s] copying /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator/calculadora_basica_server.py -> /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator
+[1.104s] byte-compiling /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator/calculadora_basica_client.py to calculadora_basica_client.cpython-310.pyc
+[1.104s] byte-compiling /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator/__init__.py to __init__.cpython-310.pyc
+[1.105s] byte-compiling /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator/calculadora_basica_server.py to calculadora_basica_server.cpython-310.pyc
+[1.105s] running install_data
+[1.105s] creating /home/vfran/ros2_ws/install/basic_calculator/share/ament_index
+[1.105s] creating /home/vfran/ros2_ws/install/basic_calculator/share/ament_index/resource_index
+[1.106s] creating /home/vfran/ros2_ws/install/basic_calculator/share/ament_index/resource_index/packages
+[1.106s] copying resource/basic_calculator -> /home/vfran/ros2_ws/install/basic_calculator/share/ament_index/resource_index/packages
+[1.106s] copying package.xml -> /home/vfran/ros2_ws/install/basic_calculator/share/basic_calculator
+[1.106s] running install_egg_info
+[1.108s] Copying ../../build/basic_calculator/basic_calculator.egg-info to /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator-0.0.0-py3.10.egg-info
+[1.109s] running install_scripts
+[1.136s] writing list of installed files to '/home/vfran/ros2_ws/build/basic_calculator/install.log'
+[1.192s] Invoked command in '/home/vfran/ros2_ws/src/basic_calculator' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/basic_calculator/prefix_override:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/basic_calculator build --build-base /home/vfran/ros2_ws/build/basic_calculator/build install --record /home/vfran/ros2_ws/build/basic_calculator/install.log --single-version-externally-managed install_data

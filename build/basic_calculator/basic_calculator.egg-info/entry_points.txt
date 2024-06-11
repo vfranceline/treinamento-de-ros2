@@ -1,0 +1,4 @@
+[console_scripts]
+calc_basic_client = basic_calculator.calculadora_basica_client:main
+calc_basic_server = basic_calculator.calculadora_basica_server:main
+

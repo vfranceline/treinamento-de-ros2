@@ -1,0 +1,501 @@
+[0.000000] (-) TimerEvent: {}
+[0.002408] (basic_calculator) JobQueued: {'identifier': 'basic_calculator', 'dependencies': OrderedDict()}
+[0.002496] (calculator) JobQueued: {'identifier': 'calculator', 'dependencies': OrderedDict()}
+[0.002550] (my_interfaces) JobQueued: {'identifier': 'my_interfaces', 'dependencies': OrderedDict()}
+[0.002599] (radio) JobQueued: {'identifier': 'radio', 'dependencies': OrderedDict()}
+[0.002646] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_interfaces', '/home/vfran/ros2_ws/install/my_interfaces')])}
+[0.002701] (my_interfaces) JobStarted: {'identifier': 'my_interfaces'}
+[0.019609] (basic_calculator) JobStarted: {'identifier': 'basic_calculator'}
+[0.034536] (calculator) JobStarted: {'identifier': 'calculator'}
+[0.047150] (radio) JobStarted: {'identifier': 'radio'}
+[0.063084] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'cmake'}
+[0.065249] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'build'}
+[0.066804] (my_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/vfran/ros2_ws/build/my_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/vfran/ros2_ws/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'vfran'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vfran/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vfran'), ('OLDPWD', '/home/vfran'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '892'), ('SYSTEMD_EXEC_PID', '1384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10423'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vfran/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vfran'), ('JOURNAL_STREAM', '8:37197'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vfran'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/vfran/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vfran-ideapad-3:@/tmp/.ICE-unix/1001,unix/vfran-ideapad-3:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '84f4c57d2d6547cfa651c7c66e14e52f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AHF9O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '105'), ('AMENT_PREFIX_PATH', '/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:16208059-bd30-4c4b-bd50-806eaf2c7905'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vfran/ros2_ws/build/my_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/vfran/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble')]), 'shell': False}
+[0.099325] (-) TimerEvent: {}
+[0.199865] (-) TimerEvent: {}
+[0.300416] (-) TimerEvent: {}
+[0.401021] (-) TimerEvent: {}
+[0.501766] (-) TimerEvent: {}
+[0.602310] (-) TimerEvent: {}
+[0.702970] (-) TimerEvent: {}
+[0.803523] (-) TimerEvent: {}
+[0.904271] (-) TimerEvent: {}
+[1.004846] (-) TimerEvent: {}
+[1.105396] (-) TimerEvent: {}
+[1.205941] (-) TimerEvent: {}
+[1.307606] (-) TimerEvent: {}
+[1.311438] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.313618] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.313832] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.314004] (my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.314169] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.314336] (my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.314498] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.407814] (-) TimerEvent: {}
+[1.508376] (-) TimerEvent: {}
+[1.557164] (my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.608556] (-) TimerEvent: {}
+[1.613492] (my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.670430] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.670754] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.670921] (my_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.708765] (-) TimerEvent: {}
+[1.725220] (my_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.808935] (-) TimerEvent: {}
+[1.841646] (my_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.850673] (my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/vfran/ros2_ws/build/my_interfaces\n'}
+[1.884250] (my_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.901035] (my_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.909076] (-) TimerEvent: {}
+[1.916871] (my_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_my_interfaces\n'}
+[2.009244] (-) TimerEvent: {}
+[2.109798] (-) TimerEvent: {}
+[2.210282] (-) TimerEvent: {}
+[2.310743] (-) TimerEvent: {}
+[2.411210] (-) TimerEvent: {}
+[2.497670] (my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.499416] (my_interfaces) StdoutLine: {'line': b'writing my_interfaces.egg-info/PKG-INFO\n'}
+[2.499995] (my_interfaces) StdoutLine: {'line': b'writing dependency_links to my_interfaces.egg-info/dependency_links.txt\n'}
+[2.500591] (my_interfaces) StdoutLine: {'line': b'writing top-level names to my_interfaces.egg-info/top_level.txt\n'}
+[2.506193] (my_interfaces) StdoutLine: {'line': b"reading manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[2.508127] (my_interfaces) StdoutLine: {'line': b"writing manifest file 'my_interfaces.egg-info/SOURCES.txt'\n"}
+[2.511378] (-) TimerEvent: {}
+[2.562287] (my_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_my_interfaces_egg\n'}
+[2.611545] (-) TimerEvent: {}
+[2.712026] (-) TimerEvent: {}
+[2.717535] (radio) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/radio', 'build', '--build-base', '/home/vfran/ros2_ws/build/radio/build', 'install', '--record', '/home/vfran/ros2_ws/build/radio/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vfran/ros2_ws/src/radio', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:en', 'USER': 'vfran', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vfran/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vfran', 'OLDPWD': '/home/vfran', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '892', 'SYSTEMD_EXEC_PID': '1384', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10423', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vfran/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vfran', 'JOURNAL_STREAM': '8:37197', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vfran', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/vfran/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vfran-ideapad-3:@/tmp/.ICE-unix/1001,unix/vfran-ideapad-3:/tmp/.ICE-unix/1001', 'INVOCATION_ID': '84f4c57d2d6547cfa651c7c66e14e52f', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AHF9O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '105', 'AMENT_PREFIX_PATH': '/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:16208059-bd30-4c4b-bd50-806eaf2c7905', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vfran/ros2_ws/build/radio', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/vfran/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vfran/ros2_ws/build/radio/prefix_override:/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vfran/ros2_ws/install/my_interfaces'}, 'shell': False}
+[2.724867] (basic_calculator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/basic_calculator', 'build', '--build-base', '/home/vfran/ros2_ws/build/basic_calculator/build', 'install', '--record', '/home/vfran/ros2_ws/build/basic_calculator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vfran/ros2_ws/src/basic_calculator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:en', 'USER': 'vfran', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vfran/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vfran', 'OLDPWD': '/home/vfran', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '892', 'SYSTEMD_EXEC_PID': '1384', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10423', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vfran/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vfran', 'JOURNAL_STREAM': '8:37197', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vfran', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/vfran/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vfran-ideapad-3:@/tmp/.ICE-unix/1001,unix/vfran-ideapad-3:/tmp/.ICE-unix/1001', 'INVOCATION_ID': '84f4c57d2d6547cfa651c7c66e14e52f', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AHF9O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '105', 'AMENT_PREFIX_PATH': '/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:16208059-bd30-4c4b-bd50-806eaf2c7905', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vfran/ros2_ws/build/basic_calculator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/vfran/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vfran/ros2_ws/build/basic_calculator/prefix_override:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vfran/ros2_ws/install/my_interfaces'}, 'shell': False}
+[2.734043] (calculator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/calculator', 'build', '--build-base', '/home/vfran/ros2_ws/build/calculator/build', 'install', '--record', '/home/vfran/ros2_ws/build/calculator/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vfran/ros2_ws/src/calculator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:en', 'USER': 'vfran', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vfran/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vfran', 'OLDPWD': '/home/vfran', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '892', 'SYSTEMD_EXEC_PID': '1384', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10423', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vfran/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vfran', 'JOURNAL_STREAM': '8:37197', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vfran', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/vfran/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vfran-ideapad-3:@/tmp/.ICE-unix/1001,unix/vfran-ideapad-3:/tmp/.ICE-unix/1001', 'INVOCATION_ID': '84f4c57d2d6547cfa651c7c66e14e52f', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AHF9O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '105', 'AMENT_PREFIX_PATH': '/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:16208059-bd30-4c4b-bd50-806eaf2c7905', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vfran/ros2_ws/build/calculator', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/vfran/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vfran/ros2_ws/build/calculator/prefix_override:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vfran/ros2_ws/install/my_interfaces'}, 'shell': False}
+[2.761402] (my_interfaces) StdoutLine: {'line': b'[  4%] Built target my_interfaces__cpp\n'}
+[2.777432] (my_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.778370] (my_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.778749] (my_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.800288] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.812215] (-) TimerEvent: {}
+[2.822616] (my_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/calc__functions.c.o\x1b[0m\n'}
+[2.823098] (my_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/msg/detail/hardware_status__functions.c.o\x1b[0m\n'}
+[2.823503] (my_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__functions.c.o\x1b[0m\n'}
+[2.912388] (-) TimerEvent: {}
+[2.967400] (my_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.012542] (-) TimerEvent: {}
+[3.037752] (my_interfaces) StdoutLine: {'line': b'[ 19%] Built target my_interfaces__rosidl_generator_c\n'}
+[3.053042] (my_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.055804] (my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.056180] (my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.112762] (-) TimerEvent: {}
+[3.213314] (-) TimerEvent: {}
+[3.303844] (radio) StdoutLine: {'line': b'running egg_info\n'}
+[3.305240] (radio) StdoutLine: {'line': b'writing ../../build/radio/radio.egg-info/PKG-INFO\n'}
+[3.306030] (radio) StdoutLine: {'line': b'writing dependency_links to ../../build/radio/radio.egg-info/dependency_links.txt\n'}
+[3.306446] (radio) StdoutLine: {'line': b'writing entry points to ../../build/radio/radio.egg-info/entry_points.txt\n'}
+[3.306833] (radio) StdoutLine: {'line': b'writing requirements to ../../build/radio/radio.egg-info/requires.txt\n'}
+[3.307100] (radio) StdoutLine: {'line': b'writing top-level names to ../../build/radio/radio.egg-info/top_level.txt\n'}
+[3.311000] (radio) StdoutLine: {'line': b"reading manifest file '../../build/radio/radio.egg-info/SOURCES.txt'\n"}
+[3.313154] (radio) StdoutLine: {'line': b"writing manifest file '../../build/radio/radio.egg-info/SOURCES.txt'\n"}
+[3.313552] (-) TimerEvent: {}
+[3.313973] (radio) StdoutLine: {'line': b'running build\n'}
+[3.314246] (radio) StdoutLine: {'line': b'running build_py\n'}
+[3.315053] (radio) StdoutLine: {'line': b'running install\n'}
+[3.315754] (radio) StdoutLine: {'line': b'running install_lib\n'}
+[3.317377] (basic_calculator) StdoutLine: {'line': b'running egg_info\n'}
+[3.318689] (radio) StdoutLine: {'line': b'running install_data\n'}
+[3.319169] (basic_calculator) StdoutLine: {'line': b'writing ../../build/basic_calculator/basic_calculator.egg-info/PKG-INFO\n'}
+[3.319549] (calculator) StdoutLine: {'line': b'running egg_info\n'}
+[3.320013] (basic_calculator) StdoutLine: {'line': b'writing dependency_links to ../../build/basic_calculator/basic_calculator.egg-info/dependency_links.txt\n'}
+[3.320286] (radio) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.320803] (basic_calculator) StdoutLine: {'line': b'writing entry points to ../../build/basic_calculator/basic_calculator.egg-info/entry_points.txt\n'}
+[3.321086] (basic_calculator) StdoutLine: {'line': b'writing requirements to ../../build/basic_calculator/basic_calculator.egg-info/requires.txt\n'}
+[3.321317] (basic_calculator) StdoutLine: {'line': b'writing top-level names to ../../build/basic_calculator/basic_calculator.egg-info/top_level.txt\n'}
+[3.321557] (calculator) StdoutLine: {'line': b'writing ../../build/calculator/calculator.egg-info/PKG-INFO\n'}
+[3.321911] (calculator) StdoutLine: {'line': b'writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt\n'}
+[3.322301] (calculator) StdoutLine: {'line': b'writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt\n'}
+[3.322561] (calculator) StdoutLine: {'line': b'writing requirements to ../../build/calculator/calculator.egg-info/requires.txt\n'}
+[3.322931] (calculator) StdoutLine: {'line': b'writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt\n'}
+[3.323300] (radio) StdoutLine: {'line': b"removing '/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.323812] (radio) StdoutLine: {'line': b'Copying ../../build/radio/radio.egg-info to /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info\n'}
+[3.325682] (basic_calculator) StdoutLine: {'line': b"reading manifest file '../../build/basic_calculator/basic_calculator.egg-info/SOURCES.txt'\n"}
+[3.326639] (calculator) StdoutLine: {'line': b"reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'\n"}
+[3.327116] (radio) StdoutLine: {'line': b'running install_scripts\n'}
+[3.328561] (basic_calculator) StdoutLine: {'line': b"writing manifest file '../../build/basic_calculator/basic_calculator.egg-info/SOURCES.txt'\n"}
+[3.329166] (basic_calculator) StdoutLine: {'line': b'running build\n'}
+[3.329517] (basic_calculator) StdoutLine: {'line': b'running build_py\n'}
+[3.329776] (calculator) StdoutLine: {'line': b"writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'\n"}
+[3.330007] (calculator) StdoutLine: {'line': b'running build\n'}
+[3.330261] (calculator) StdoutLine: {'line': b'running build_py\n'}
+[3.330456] (basic_calculator) StdoutLine: {'line': b'copying basic_calculator/calculadora_basica_client.py -> /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator\n'}
+[3.330952] (basic_calculator) StdoutLine: {'line': b'running install\n'}
+[3.331547] (calculator) StdoutLine: {'line': b'running install\n'}
+[3.331916] (basic_calculator) StdoutLine: {'line': b'running install_lib\n'}
+[3.332461] (calculator) StdoutLine: {'line': b'running install_lib\n'}
+[3.333523] (basic_calculator) StdoutLine: {'line': b'copying /home/vfran/ros2_ws/build/basic_calculator/build/lib/basic_calculator/calculadora_basica_client.py -> /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator\n'}
+[3.335323] (basic_calculator) StdoutLine: {'line': b'byte-compiling /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator/calculadora_basica_client.py to calculadora_basica_client.cpython-310.pyc\n'}
+[3.336146] (calculator) StdoutLine: {'line': b'running install_data\n'}
+[3.336745] (calculator) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.337169] (basic_calculator) StdoutLine: {'line': b'running install_data\n'}
+[3.337678] (basic_calculator) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.340765] (calculator) StdoutLine: {'line': b"removing '/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.341518] (basic_calculator) StdoutLine: {'line': b"removing '/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.341903] (calculator) StdoutLine: {'line': b'Copying ../../build/calculator/calculator.egg-info to /home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info\n'}
+[3.342650] (basic_calculator) StdoutLine: {'line': b'Copying ../../build/basic_calculator/basic_calculator.egg-info to /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator-0.0.0-py3.10.egg-info\n'}
+[3.344991] (calculator) StdoutLine: {'line': b'running install_scripts\n'}
+[3.345776] (basic_calculator) StdoutLine: {'line': b'running install_scripts\n'}
+[3.375075] (radio) StdoutLine: {'line': b'Installing radioreceiver script to /home/vfran/ros2_ws/install/radio/lib/radio\n'}
+[3.376008] (radio) StdoutLine: {'line': b'Installing radiostation script to /home/vfran/ros2_ws/install/radio/lib/radio\n'}
+[3.376752] (radio) StdoutLine: {'line': b"writing list of installed files to '/home/vfran/ros2_ws/build/radio/install.log'\n"}
+[3.393050] (calculator) StdoutLine: {'line': b'Installing calculator_client script to /home/vfran/ros2_ws/install/calculator/lib/calculator\n'}
+[3.393538] (basic_calculator) StdoutLine: {'line': b'Installing calc_basic_client script to /home/vfran/ros2_ws/install/basic_calculator/lib/basic_calculator\n'}
+[3.393913] (calculator) StdoutLine: {'line': b'Installing calculator_server script to /home/vfran/ros2_ws/install/calculator/lib/calculator\n'}
+[3.394292] (basic_calculator) StdoutLine: {'line': b'Installing calc_basic_server script to /home/vfran/ros2_ws/install/basic_calculator/lib/basic_calculator\n'}
+[3.394541] (calculator) StdoutLine: {'line': b'Installing geometric_calculator_server script to /home/vfran/ros2_ws/install/calculator/lib/calculator\n'}
+[3.394885] (basic_calculator) StdoutLine: {'line': b"writing list of installed files to '/home/vfran/ros2_ws/build/basic_calculator/install.log'\n"}
+[3.395266] (calculator) StdoutLine: {'line': b"writing list of installed files to '/home/vfran/ros2_ws/build/calculator/install.log'\n"}
+[3.413753] (-) TimerEvent: {}
+[3.440949] (radio) CommandEnded: {'returncode': 0}
+[3.468535] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.471700] (radio) JobEnded: {'identifier': 'radio', 'rc': 0}
+[3.475393] (basic_calculator) CommandEnded: {'returncode': 0}
+[3.489473] (basic_calculator) JobEnded: {'identifier': 'basic_calculator', 'rc': 0}
+[3.490641] (calculator) CommandEnded: {'returncode': 0}
+[3.496516] (my_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[3.499349] (my_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[3.499635] (my_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interfaces/srv/calc__type_support.cpp.o\x1b[0m\n'}
+[3.510929] (calculator) JobEnded: {'identifier': 'calculator', 'rc': 0}
+[3.513904] (-) TimerEvent: {}
+[3.564391] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.590084] (my_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/msg/detail/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[3.593502] (my_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[3.593998] (my_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interfaces/srv/detail/calc__type_support.cpp.o\x1b[0m\n'}
+[3.614057] (-) TimerEvent: {}
+[3.644740] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.675406] (my_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[3.675845] (my_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/msg/detail/dds_fastrtps/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[3.676092] (my_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interfaces/srv/detail/dds_fastrtps/calc__type_support.cpp.o\x1b[0m\n'}
+[3.714222] (-) TimerEvent: {}
+[3.815075] (-) TimerEvent: {}
+[3.873934] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.902957] (my_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/calc__type_support_c.cpp.o\x1b[0m\n'}
+[3.903599] (my_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/msg/detail/hardware_status__type_support_c.cpp.o\x1b[0m\n'}
+[3.906590] (my_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interfaces/srv/detail/compute_rectangle_area__type_support_c.cpp.o\x1b[0m\n'}
+[3.915259] (-) TimerEvent: {}
+[3.986308] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[4.009227] (my_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/msg/hardware_status__type_support.cpp.o\x1b[0m\n'}
+[4.009801] (my_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/calc__type_support.cpp.o\x1b[0m\n'}
+[4.011440] (my_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interfaces/srv/compute_rectangle_area__type_support.cpp.o\x1b[0m\n'}
+[4.015436] (-) TimerEvent: {}
+[4.115972] (my_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.116403] (-) TimerEvent: {}
+[4.217329] (-) TimerEvent: {}
+[4.233483] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.239280] (my_interfaces) StdoutLine: {'line': b'[ 59%] Built target my_interfaces__rosidl_typesupport_c\n'}
+[4.260143] (my_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/msg/detail/hardware_status__type_support.c.o\x1b[0m\n'}
+[4.261123] (my_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/compute_rectangle_area__type_support.c.o\x1b[0m\n'}
+[4.264475] (my_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interfaces/srv/detail/calc__type_support.c.o\x1b[0m\n'}
+[4.317537] (-) TimerEvent: {}
+[4.379117] (my_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmy_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.387775] (my_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.417737] (-) TimerEvent: {}
+[4.458104] (my_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.473981] (my_interfaces) StdoutLine: {'line': b'[ 70%] Built target my_interfaces__rosidl_typesupport_cpp\n'}
+[4.517962] (-) TimerEvent: {}
+[4.618558] (-) TimerEvent: {}
+[4.688848] (my_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.718744] (-) TimerEvent: {}
+[4.819286] (-) TimerEvent: {}
+[4.830976] (my_interfaces) StdoutLine: {'line': b'[ 72%] Built target my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.865005] (my_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.880286] (my_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.919694] (-) TimerEvent: {}
+[5.020315] (-) TimerEvent: {}
+[5.029887] (my_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.045133] (my_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.073183] (my_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_interfaces\n'}
+[5.101894] (my_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.120475] (-) TimerEvent: {}
+[5.221005] (-) TimerEvent: {}
+[5.321443] (-) TimerEvent: {}
+[5.421889] (-) TimerEvent: {}
+[5.522554] (-) TimerEvent: {}
+[5.623015] (-) TimerEvent: {}
+[5.723453] (-) TimerEvent: {}
+[5.823889] (-) TimerEvent: {}
+[5.924334] (-) TimerEvent: {}
+[6.024772] (-) TimerEvent: {}
+[6.125198] (-) TimerEvent: {}
+[6.225641] (-) TimerEvent: {}
+[6.326086] (-) TimerEvent: {}
+[6.426532] (-) TimerEvent: {}
+[6.440639] (my_interfaces) StdoutLine: {'line': b'[ 78%] Built target my_interfaces__py\n'}
+[6.457183] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_generator_py\x1b[0m\n'}
+[6.482682] (my_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/msg/_hardware_status_s.c.o\x1b[0m\n'}
+[6.483529] (my_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_compute_rectangle_area_s.c.o\x1b[0m\n'}
+[6.483938] (my_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_interfaces/srv/_calc_s.c.o\x1b[0m\n'}
+[6.526707] (-) TimerEvent: {}
+[6.627179] (-) TimerEvent: {}
+[6.727613] (-) TimerEvent: {}
+[6.748380] (my_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/libmy_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.825251] (my_interfaces) StdoutLine: {'line': b'[ 87%] Built target my_interfaces__rosidl_generator_py\n'}
+[6.827839] (-) TimerEvent: {}
+[6.840435] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.840824] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.841003] (my_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.863060] (my_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.863505] (my_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.863705] (my_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.928023] (-) TimerEvent: {}
+[7.028491] (-) TimerEvent: {}
+[7.102945] (my_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.104373] (my_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.118265] (my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.128703] (-) TimerEvent: {}
+[7.162570] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.164184] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.181938] (my_interfaces) StdoutLine: {'line': b'[100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.199075] (my_interfaces) CommandEnded: {'returncode': 0}
+[7.228810] (-) TimerEvent: {}
+[7.329497] (-) TimerEvent: {}
+[7.429956] (-) TimerEvent: {}
+[7.460034] (my_interfaces) JobProgress: {'identifier': 'my_interfaces', 'progress': 'install'}
+[7.471938] (my_interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/vfran/ros2_ws/build/my_interfaces'], 'cwd': '/home/vfran/ros2_ws/build/my_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'pt_BR:en'), ('USER', 'vfran'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vfran/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vfran'), ('OLDPWD', '/home/vfran'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('MANAGERPID', '892'), ('SYSTEMD_EXEC_PID', '1384'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10423'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/vfran/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'vfran'), ('JOURNAL_STREAM', '8:37197'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vfran'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/vfran/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vfran-ideapad-3:@/tmp/.ICE-unix/1001,unix/vfran-ideapad-3:/tmp/.ICE-unix/1001'), ('INVOCATION_ID', '84f4c57d2d6547cfa651c7c66e14e52f'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'pt_BR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AHF9O2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '105'), ('AMENT_PREFIX_PATH', '/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:16208059-bd30-4c4b-bd50-806eaf2c7905'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vfran/ros2_ws/build/my_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/home/vfran/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble')]), 'shell': False}
+[7.481375] (my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.481833] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces\n'}
+[7.482838] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[7.483139] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[7.483477] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.h\n'}
+[7.483903] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[7.484204] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__functions.h\n'}
+[7.484722] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.h\n'}
+[7.485176] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__type_support.h\n'}
+[7.485535] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.c\n'}
+[7.485971] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__struct.h\n'}
+[7.486278] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__functions.c\n'}
+[7.486734] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.h\n'}
+[7.487135] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.h\n'}
+[7.487526] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/calc.h\n'}
+[7.487868] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[7.488171] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.h\n'}
+[7.488496] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[7.488826] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[7.489202] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.h\n'}
+[7.489655] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.c\n'}
+[7.490056] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.h\n'}
+[7.490501] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.490890] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh\n'}
+[7.491117] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv\n'}
+[7.492073] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so\n'}
+[7.493554] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.493847] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[7.494150] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[7.494319] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[7.494481] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_fastrtps_c.h\n'}
+[7.494709] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h\n'}
+[7.494977] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[7.495140] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.495319] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[7.495469] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[7.496247] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.497372] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.497798] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[7.498024] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[7.498185] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[7.498415] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_introspection_c.h\n'}
+[7.498571] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h\n'}
+[7.498821] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__type_support.c\n'}
+[7.499049] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.c\n'}
+[7.499453] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[7.499838] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.500065] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[7.500240] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[7.500494] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[7.501383] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.502381] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.503105] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so\n'}
+[7.504089] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.504479] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[7.504864] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[7.505053] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.hpp\n'}
+[7.505288] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/calc.hpp\n'}
+[7.505517] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[7.505676] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.hpp\n'}
+[7.505947] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__builder.hpp\n'}
+[7.506179] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__struct.hpp\n'}
+[7.506592] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__traits.hpp\n'}
+[7.507059] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__builder.hpp\n'}
+[7.507376] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__traits.hpp\n'}
+[7.507710] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[7.507938] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.hpp\n'}
+[7.508260] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[7.508647] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[7.508960] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[7.509205] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[7.509668] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[7.510027] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[7.510210] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[7.510374] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps\n'}
+[7.510630] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.510795] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.511016] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[7.511197] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[7.511406] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps\n'}
+[7.511553] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.511802] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.513059] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.514202] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.514413] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces\n'}
+[7.514573] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv\n'}
+[7.514853] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail\n'}
+[7.515005] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.515235] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__type_support.cpp\n'}
+[7.515459] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.cpp\n'}
+[7.515929] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.516312] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg\n'}
+[7.516568] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail\n'}
+[7.516837] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.517103] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[7.518124] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.519259] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.519976] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.521070] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.521362] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh\n'}
+[7.521613] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv\n'}
+[7.521916] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.522146] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.522443] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.522737] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.523120] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.523680] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces\n'}
+[7.523988] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv\n'}
+[7.524332] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area_s.c\n'}
+[7.524560] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py\n'}
+[7.524957] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_calc_s.c\n'}
+[7.525243] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area.py\n'}
+[7.525779] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_calc.py\n'}
+[7.526210] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so\n'}
+[7.526813] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py\n'}
+[7.527174] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.527749] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg\n'}
+[7.528028] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status_s.c\n'}
+[7.528375] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py\n'}
+[7.528784] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status.py\n'}
+[7.529427] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.529979] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.530197] (-) TimerEvent: {}
+[7.530540] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.531106] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.531669] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.622479] (my_interfaces) StdoutLine: {'line': b"Listing '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...\n"}
+[7.622807] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py'...\n"}
+[7.623000] (my_interfaces) StdoutLine: {'line': b"Listing '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...\n"}
+[7.623160] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py'...\n"}
+[7.623310] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status.py'...\n"}
+[7.623465] (my_interfaces) StdoutLine: {'line': b"Listing '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...\n"}
+[7.623612] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py'...\n"}
+[7.623760] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_calc.py'...\n"}
+[7.623908] (my_interfaces) StdoutLine: {'line': b"Compiling '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area.py'...\n"}
+[7.630369] (-) TimerEvent: {}
+[7.633304] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.634462] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.635046] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.636194] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.636802] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.637937] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.639197] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so\n'}
+[7.640288] (my_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.640626] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.idl\n'}
+[7.640910] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.idl\n'}
+[7.641204] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc.idl\n'}
+[7.641450] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.msg\n'}
+[7.641667] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.srv\n'}
+[7.641903] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Request.msg\n'}
+[7.642064] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Response.msg\n'}
+[7.642265] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc.srv\n'}
+[7.642503] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc_Request.msg\n'}
+[7.642732] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc_Response.msg\n'}
+[7.643104] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces\n'}
+[7.643393] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces\n'}
+[7.643944] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh\n'}
+[7.644253] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.644618] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.sh\n'}
+[7.644826] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv\n'}
+[7.645210] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.bash\n'}
+[7.645600] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.sh\n'}
+[7.645826] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh\n'}
+[7.645994] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv\n'}
+[7.646251] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/package.dsv\n'}
+[7.646633] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces\n'}
+[7.647192] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.647481] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.647733] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.647990] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.648200] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.648392] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.648733] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.649036] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.649299] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.649730] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.649972] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.650306] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.650546] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.650802] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.651009] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.651376] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.651622] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.651826] (my_interfaces) StdoutLine: {'line': b'-- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.652196] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.652478] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.652715] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.652970] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.653134] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.653296] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.653552] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake\n'}
+[7.653720] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake\n'}
+[7.653872] (my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/package.xml\n'}
+[7.657112] (my_interfaces) CommandEnded: {'returncode': 0}
+[7.730527] (-) TimerEvent: {}
+[7.831127] (-) TimerEvent: {}
+[7.931616] (-) TimerEvent: {}
+[7.945827] (my_interfaces) JobEnded: {'identifier': 'my_interfaces', 'rc': 0}
+[7.946857] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[8.032012] (-) TimerEvent: {}
+[8.132479] (-) TimerEvent: {}
+[8.232978] (-) TimerEvent: {}
+[8.333431] (-) TimerEvent: {}
+[8.433860] (-) TimerEvent: {}
+[8.534322] (-) TimerEvent: {}
+[8.634795] (-) TimerEvent: {}
+[8.735233] (-) TimerEvent: {}
+[8.835662] (-) TimerEvent: {}
+[8.936119] (-) TimerEvent: {}
+[9.036562] (-) TimerEvent: {}
+[9.137067] (-) TimerEvent: {}
+[9.237512] (-) TimerEvent: {}
+[9.337988] (-) TimerEvent: {}
+[9.390585] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/vfran/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/vfran/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vfran/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:en', 'USER': 'vfran', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vfran/ros2_ws/install/my_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vfran', 'OLDPWD': '/home/vfran', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'MANAGERPID': '892', 'SYSTEMD_EXEC_PID': '1384', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '10423', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/vfran/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'vfran', 'JOURNAL_STREAM': '8:37197', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vfran', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/opt/ros/humble/bin:/home/vfran/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/vfran-ideapad-3:@/tmp/.ICE-unix/1001,unix/vfran-ideapad-3:/tmp/.ICE-unix/1001', 'INVOCATION_ID': '84f4c57d2d6547cfa651c7c66e14e52f', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AHF9O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '105', 'AMENT_PREFIX_PATH': '/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:16208059-bd30-4c4b-bd50-806eaf2c7905', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vfran/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/home/vfran/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vfran/ros2_ws/install/my_interfaces'}, 'shell': False}
+[9.438152] (-) TimerEvent: {}
+[9.538605] (-) TimerEvent: {}
+[9.639039] (-) TimerEvent: {}
+[9.739459] (-) TimerEvent: {}
+[9.839898] (-) TimerEvent: {}
+[9.881001] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[9.882184] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[9.886989] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[9.887338] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[9.887607] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[9.887796] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[9.890731] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[9.892500] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[9.892914] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[9.893097] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[9.894184] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[9.894624] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[9.897423] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[9.897786] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.900600] (my_py_pkg) StdoutLine: {'line': b"removing '/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.901203] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info\n'}
+[9.903300] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[9.939634] (my_py_pkg) StdoutLine: {'line': b'Installing hw_status_publisher script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.940008] (-) TimerEvent: {}
+[9.941210] (my_py_pkg) StdoutLine: {'line': b'Installing py_node script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[9.941842] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/vfran/ros2_ws/build/my_py_pkg/install.log'\n"}
+[9.985290] (my_py_pkg) CommandEnded: {'returncode': 0}
+[9.995146] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[9.996554] (-) EventReactorShutdown: {}

@@ -247,8 +247,13 @@ CMakeFiles/my_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_g
   rosidl_generator_c/my_interfaces/msg/detail/hardware_status__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/my_interfaces/msg/detail/hardware_status__functions.h
+  rosidl_generator_c/my_interfaces/msg/detail/hardware_status__functions.h \
+  rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__type_support.h \
+  rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__struct.h \
+  rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__functions.h
 
+
+rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__functions.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -257,6 +262,8 @@ rosidl_generator_c/my_interfaces/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/fileutils.h:
 
 /usr/include/python3.10/pystrcmp.h:
+
+rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__type_support.h:
 
 /usr/include/python3.10/eval.h:
 
@@ -371,6 +378,8 @@ rosidl_generator_c/my_interfaces/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/python3.10/cpython/object.h:
 
 /usr/include/python3.10/pymath.h:
+
+rosidl_generator_c/my_interfaces/srv/detail/compute_rectangle_area__struct.h:
 
 /usr/include/python3.10/warnings.h:
 

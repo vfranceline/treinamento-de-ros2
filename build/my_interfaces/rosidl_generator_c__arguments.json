@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:msg/HardwareStatus.idl",
-    "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/ComputeRectangleArea.idl"
+    "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/ComputeRectangleArea.idl",
+    "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces:srv/Calc.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
@@ -21,6 +22,7 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/msg/HardwareStatus.idl",
-    "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/ComputeRectangleArea.idl"
+    "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/ComputeRectangleArea.idl",
+    "/home/vfran/ros2_ws/build/my_interfaces/rosidl_adapter/my_interfaces/srv/Calc.idl"
   ]
 }

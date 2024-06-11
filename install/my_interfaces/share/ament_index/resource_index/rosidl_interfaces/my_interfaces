@@ -1,5 +1,9 @@
 msg/HardwareStatus.idl
 msg/HardwareStatus.msg
+srv/Calc.idl
+srv/Calc.srv
+srv/Calc_Request.msg
+srv/Calc_Response.msg
 srv/ComputeRectangleArea.idl
 srv/ComputeRectangleArea.srv
 srv/ComputeRectangleArea_Request.msg

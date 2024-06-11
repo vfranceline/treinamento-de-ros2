@@ -70,6 +70,9 @@ CMakeFiles/my_interfaces: /home/vfran/ros2_ws/src/my_interfaces/msg/HardwareStat
 CMakeFiles/my_interfaces: /home/vfran/ros2_ws/src/my_interfaces/srv/ComputeRectangleArea.srv
 CMakeFiles/my_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Request.msg
 CMakeFiles/my_interfaces: rosidl_cmake/srv/ComputeRectangleArea_Response.msg
+CMakeFiles/my_interfaces: /home/vfran/ros2_ws/src/my_interfaces/srv/Calc.srv
+CMakeFiles/my_interfaces: rosidl_cmake/srv/Calc_Request.msg
+CMakeFiles/my_interfaces: rosidl_cmake/srv/Calc_Response.msg
 
 my_interfaces: CMakeFiles/my_interfaces
 my_interfaces: CMakeFiles/my_interfaces.dir/build.make
