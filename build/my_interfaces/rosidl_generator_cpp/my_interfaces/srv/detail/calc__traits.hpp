@@ -151,10 +151,17 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: result
+  // member: resultado
   {
-    out << "result: ";
-    rosidl_generator_traits::value_to_yaml(msg.result, out);
+    out << "resultado: ";
+    rosidl_generator_traits::value_to_yaml(msg.resultado, out);
+    out << ", ";
+  }
+
+  // member: status
+  {
+    out << "status: ";
+    rosidl_generator_traits::value_to_yaml(msg.status, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -163,13 +170,23 @@ inline void to_block_style_yaml(
   const Calc_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: result
+  // member: resultado
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "result: ";
-    rosidl_generator_traits::value_to_yaml(msg.result, out);
+    out << "resultado: ";
+    rosidl_generator_traits::value_to_yaml(msg.resultado, out);
+    out << "\n";
+  }
+
+  // member: status
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "status: ";
+    rosidl_generator_traits::value_to_yaml(msg.status, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)
@@ -220,11 +237,11 @@ inline const char * name<my_interfaces::srv::Calc_Response>()
 
 template<>
 struct has_fixed_size<my_interfaces::srv::Calc_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<my_interfaces::srv::Calc_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<my_interfaces::srv::Calc_Response>

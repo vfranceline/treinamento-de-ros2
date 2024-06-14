@@ -300,6 +300,10 @@ extern "C"
 {
 #endif
 
+// already included above
+// #include "rosidl_runtime_c/string.h"  // status
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"  // status
 
 // forward declare type support functions
 
@@ -315,9 +319,23 @@ static bool _Calc_Response__cdr_serialize(
     return false;
   }
   const _Calc_Response__ros_msg_type * ros_message = static_cast<const _Calc_Response__ros_msg_type *>(untyped_ros_message);
-  // Field name: result
+  // Field name: resultado
   {
-    cdr << ros_message->result;
+    cdr << ros_message->resultado;
+  }
+
+  // Field name: status
+  {
+    const rosidl_runtime_c__String * str = &ros_message->status;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
   }
 
   return true;
@@ -332,9 +350,25 @@ static bool _Calc_Response__cdr_deserialize(
     return false;
   }
   _Calc_Response__ros_msg_type * ros_message = static_cast<_Calc_Response__ros_msg_type *>(untyped_ros_message);
-  // Field name: result
+  // Field name: resultado
   {
-    cdr >> ros_message->result;
+    cdr >> ros_message->resultado;
+  }
+
+  // Field name: status
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->status.data) {
+      rosidl_runtime_c__String__init(&ros_message->status);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->status,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'status'\n");
+      return false;
+    }
   }
 
   return true;
@@ -354,12 +388,16 @@ size_t get_serialized_size_my_interfaces__srv__Calc_Response(
   (void)padding;
   (void)wchar_size;
 
-  // field.name result
+  // field.name resultado
   {
-    size_t item_size = sizeof(ros_message->result);
+    size_t item_size = sizeof(ros_message->resultado);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // field.name status
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->status.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -389,13 +427,25 @@ size_t max_serialized_size_my_interfaces__srv__Calc_Response(
   full_bounded = true;
   is_plain = true;
 
-  // member: result
+  // member: resultado
   {
     size_t array_size = 1;
 
     last_member_size = array_size * sizeof(uint64_t);
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: status
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -406,7 +456,7 @@ size_t max_serialized_size_my_interfaces__srv__Calc_Response(
     using DataType = my_interfaces__srv__Calc_Response;
     is_plain =
       (
-      offsetof(DataType, result) +
+      offsetof(DataType, status) +
       last_member_size
       ) == ret_val;
   }

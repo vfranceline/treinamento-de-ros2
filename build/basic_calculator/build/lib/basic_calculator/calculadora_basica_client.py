@@ -3,14 +3,15 @@
 import rclpy
 from rclpy.node import Node
 from my_interfaces.srv import Calc
-
+from example_interfaces.msg import String
 from functools import partial
 
 class CalculadoraBasicaClientNode(Node):
     def __init__(self):
         super().__init__("client")
         self.get_logger().info("O cliente da calculadora está rodando")
-        self.call_calculator_server(3.0, 4.0, '+')
+        self.call_calculator_server(3.0, 4.0, "+")
+        self._sub = self.create_subscription(String, "Display", self.callback_display, 10)
 
     def call_calculator_server(self, a, b, op):
         client = self.create_client(Calc, "calculadora_basica")
@@ -26,12 +27,16 @@ class CalculadoraBasicaClientNode(Node):
         future = client.call_async(request)
         future.add_done_callback(partial(self.callback_call_calc, request=request))
     
-    def callback_call_calc(self, future, request):
+    def callback_call_calc(self, future, request, response):
         try:
-            response=future.result()
+            response.resultado=future.result()
             self.get_logger().info(str(request.a) + str(request.op) + str(request.b) + "=" + str(response.result))
+
         except Exception as e:
             self.get_logger().error("Chamada de serviço falhou")
+
+    def callback_display(self, displaymsg):
+        self.get_logger().info(str(displaymsg.data))
 
 def main(args=None):
     rclpy.init(args=args)

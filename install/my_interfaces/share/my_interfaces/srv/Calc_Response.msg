@@ -1,2 +1,3 @@
 
-float64 result
+float64 resultado
+string status

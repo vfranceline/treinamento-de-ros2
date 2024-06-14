@@ -225,22 +225,26 @@ class Calc_Response(metaclass=Metaclass_Calc_Response):
     """Message class 'Calc_Response'."""
 
     __slots__ = [
-        '_result',
+        '_resultado',
+        '_status',
     ]
 
     _fields_and_field_types = {
-        'result': 'double',
+        'resultado': 'double',
+        'status': 'string',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.result = kwargs.get('result', float())
+        self.resultado = kwargs.get('resultado', float())
+        self.status = kwargs.get('status', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -271,7 +275,9 @@ class Calc_Response(metaclass=Metaclass_Calc_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.result != other.result:
+        if self.resultado != other.resultado:
+            return False
+        if self.status != other.status:
             return False
         return True
 
@@ -281,19 +287,32 @@ class Calc_Response(metaclass=Metaclass_Calc_Response):
         return copy(cls._fields_and_field_types)
 
     @builtins.property
-    def result(self):
-        """Message field 'result'."""
-        return self._result
+    def resultado(self):
+        """Message field 'resultado'."""
+        return self._resultado
 
-    @result.setter
-    def result(self, value):
+    @resultado.setter
+    def resultado(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'result' field must be of type 'float'"
+                "The 'resultado' field must be of type 'float'"
             assert not (value < -1.7976931348623157e+308 or value > 1.7976931348623157e+308) or math.isinf(value), \
-                "The 'result' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
-        self._result = value
+                "The 'resultado' field must be a double in [-1.7976931348623157e+308, 1.7976931348623157e+308]"
+        self._resultado = value
+
+    @builtins.property
+    def status(self):
+        """Message field 'status'."""
+        return self._status
+
+    @status.setter
+    def status(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, str), \
+                "The 'status' field must be of type 'str'"
+        self._status = value
 
 
 class Metaclass_Calc(type):

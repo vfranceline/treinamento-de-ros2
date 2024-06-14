@@ -42,10 +42,16 @@ typedef struct my_interfaces__srv__Calc_Request__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'status'
+// already included above
+// #include "rosidl_runtime_c/string.h"
+
 /// Struct defined in srv/Calc in the package my_interfaces.
 typedef struct my_interfaces__srv__Calc_Response
 {
-  double result;
+  double resultado;
+  rosidl_runtime_c__String status;
 } my_interfaces__srv__Calc_Response;
 
 // Struct for a sequence of my_interfaces__srv__Calc_Response.

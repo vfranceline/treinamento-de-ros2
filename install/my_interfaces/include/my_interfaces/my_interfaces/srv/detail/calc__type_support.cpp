@@ -190,16 +190,33 @@ void Calc_Response_fini_function(void * message_memory)
   typed_message->~Calc_Response();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember Calc_Response_message_member_array[1] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember Calc_Response_message_member_array[2] = {
   {
-    "result",  // name
+    "resultado",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(my_interfaces::srv::Calc_Response, result),  // bytes offset in struct
+    offsetof(my_interfaces::srv::Calc_Response, resultado),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "status",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(my_interfaces::srv::Calc_Response, status),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -213,7 +230,7 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Calc_Response
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers Calc_Response_message_members = {
   "my_interfaces::srv",  // message namespace
   "Calc_Response",  // message name
-  1,  // number of fields
+  2,  // number of fields
   sizeof(my_interfaces::srv::Calc_Response),
   Calc_Response_message_member_array,  // message members
   Calc_Response_init_function,  // function to initialize message memory (memory has to be allocated)

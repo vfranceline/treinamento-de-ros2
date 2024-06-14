@@ -95,16 +95,32 @@ namespace srv
 namespace builder
 {
 
-class Init_Calc_Response_result
+class Init_Calc_Response_status
 {
 public:
-  Init_Calc_Response_result()
+  explicit Init_Calc_Response_status(::my_interfaces::srv::Calc_Response & msg)
+  : msg_(msg)
+  {}
+  ::my_interfaces::srv::Calc_Response status(::my_interfaces::srv::Calc_Response::_status_type arg)
+  {
+    msg_.status = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::my_interfaces::srv::Calc_Response msg_;
+};
+
+class Init_Calc_Response_resultado
+{
+public:
+  Init_Calc_Response_resultado()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::my_interfaces::srv::Calc_Response result(::my_interfaces::srv::Calc_Response::_result_type arg)
+  Init_Calc_Response_status resultado(::my_interfaces::srv::Calc_Response::_resultado_type arg)
   {
-    msg_.result = std::move(arg);
-    return std::move(msg_);
+    msg_.resultado = std::move(arg);
+    return Init_Calc_Response_status(msg_);
   }
 
 private:
@@ -122,7 +138,7 @@ template<>
 inline
 auto build<::my_interfaces::srv::Calc_Response>()
 {
-  return my_interfaces::srv::builder::Init_Calc_Response_result();
+  return my_interfaces::srv::builder::Init_Calc_Response_resultado();
 }
 
 }  // namespace my_interfaces

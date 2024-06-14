@@ -266,13 +266,23 @@ my_interfaces__srv__Calc_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `status`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 bool
 my_interfaces__srv__Calc_Response__init(my_interfaces__srv__Calc_Response * msg)
 {
   if (!msg) {
     return false;
   }
-  // result
+  // resultado
+  // status
+  if (!rosidl_runtime_c__String__init(&msg->status)) {
+    my_interfaces__srv__Calc_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -282,7 +292,9 @@ my_interfaces__srv__Calc_Response__fini(my_interfaces__srv__Calc_Response * msg)
   if (!msg) {
     return;
   }
-  // result
+  // resultado
+  // status
+  rosidl_runtime_c__String__fini(&msg->status);
 }
 
 bool
@@ -291,8 +303,14 @@ my_interfaces__srv__Calc_Response__are_equal(const my_interfaces__srv__Calc_Resp
   if (!lhs || !rhs) {
     return false;
   }
-  // result
-  if (lhs->result != rhs->result) {
+  // resultado
+  if (lhs->resultado != rhs->resultado) {
+    return false;
+  }
+  // status
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->status), &(rhs->status)))
+  {
     return false;
   }
   return true;
@@ -306,8 +324,14 @@ my_interfaces__srv__Calc_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // result
-  output->result = input->result;
+  // resultado
+  output->resultado = input->resultado;
+  // status
+  if (!rosidl_runtime_c__String__copy(
+      &(input->status), &(output->status)))
+  {
+    return false;
+  }
   return true;
 }
 

@@ -166,6 +166,11 @@ PyObject * my_interfaces__srv__calc__request__convert_to_py(void * raw_ros_messa
 // already included above
 // #include "my_interfaces/srv/detail/calc__functions.h"
 
+// already included above
+// #include "rosidl_runtime_c/string.h"
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool my_interfaces__srv__calc__response__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -200,13 +205,28 @@ bool my_interfaces__srv__calc__response__convert_from_py(PyObject * _pymsg, void
     assert(strncmp("my_interfaces.srv._calc.Calc_Response", full_classname_dest, 37) == 0);
   }
   my_interfaces__srv__Calc_Response * ros_message = _ros_message;
-  {  // result
-    PyObject * field = PyObject_GetAttrString(_pymsg, "result");
+  {  // resultado
+    PyObject * field = PyObject_GetAttrString(_pymsg, "resultado");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->result = PyFloat_AS_DOUBLE(field);
+    ros_message->resultado = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
+  {  // status
+    PyObject * field = PyObject_GetAttrString(_pymsg, "status");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->status, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
 
@@ -231,11 +251,28 @@ PyObject * my_interfaces__srv__calc__response__convert_to_py(void * raw_ros_mess
     }
   }
   my_interfaces__srv__Calc_Response * ros_message = (my_interfaces__srv__Calc_Response *)raw_ros_message;
-  {  // result
+  {  // resultado
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->result);
+    field = PyFloat_FromDouble(ros_message->resultado);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "result", field);
+      int rc = PyObject_SetAttrString(_pymessage, "resultado", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // status
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->status.data,
+      strlen(ros_message->status.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "status", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

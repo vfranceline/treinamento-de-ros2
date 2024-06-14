@@ -13,7 +13,9 @@ module my_interfaces {
       string op;
     };
     struct Calc_Response {
-      double result;
+      double resultado;
+
+      string status;
     };
   };
 };
