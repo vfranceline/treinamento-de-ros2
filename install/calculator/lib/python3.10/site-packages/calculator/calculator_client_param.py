@@ -2,20 +2,18 @@
 
 import rclpy
 from rclpy.node import Node
-
 from example_interfaces.srv import AddTwoInts
-
 from functools import partial
 
 class CalculatorClientNode(Node):
     def __init__(self):
-        super().__init__("calculator_client")
+        super().__init__("calculator_client_param")
         self.get_logger().info("O cliente da calculadora está rodando")
         self.declare_parameter("argument1",3)
         self.declare_parameter("argument2",4)
         self.call_calculator_server()
 
-    def call_calculator_server(self, a, b):
+    def call_calculator_server(self):
         a = self.get_parameter("argument1").value
         b = self.get_parameter("argument2").value
 

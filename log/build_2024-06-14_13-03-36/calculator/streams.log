@@ -1,0 +1,27 @@
+[1.016s] Invoking command in '/home/vfran/ros2_ws/src/calculator': PYTHONPATH=/home/vfran/ros2_ws/build/calculator/prefix_override:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vfran/ros2_ws/build/calculator/build install --record /home/vfran/ros2_ws/build/calculator/install.log --single-version-externally-managed install_data
+[1.225s] running egg_info
+[1.226s] writing ../../build/calculator/calculator.egg-info/PKG-INFO
+[1.226s] writing dependency_links to ../../build/calculator/calculator.egg-info/dependency_links.txt
+[1.226s] writing entry points to ../../build/calculator/calculator.egg-info/entry_points.txt
+[1.227s] writing requirements to ../../build/calculator/calculator.egg-info/requires.txt
+[1.227s] writing top-level names to ../../build/calculator/calculator.egg-info/top_level.txt
+[1.229s] reading manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.230s] writing manifest file '../../build/calculator/calculator.egg-info/SOURCES.txt'
+[1.230s] running build
+[1.231s] running build_py
+[1.231s] copying calculator/calculator_client_param.py -> /home/vfran/ros2_ws/build/calculator/build/lib/calculator
+[1.231s] running install
+[1.232s] running install_lib
+[1.233s] copying /home/vfran/ros2_ws/build/calculator/build/lib/calculator/calculator_client_param.py -> /home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages/calculator
+[1.234s] byte-compiling /home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages/calculator/calculator_client_param.py to calculator_client_param.cpython-310.pyc
+[1.235s] running install_data
+[1.235s] running install_egg_info
+[1.237s] removing '/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info' (and everything under it)
+[1.238s] Copying ../../build/calculator/calculator.egg-info to /home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages/calculator-0.0.0-py3.10.egg-info
+[1.239s] running install_scripts
+[1.261s] Installing calculator_client script to /home/vfran/ros2_ws/install/calculator/lib/calculator
+[1.261s] Installing calculator_client_param script to /home/vfran/ros2_ws/install/calculator/lib/calculator
+[1.261s] Installing calculator_server script to /home/vfran/ros2_ws/install/calculator/lib/calculator
+[1.261s] Installing geometric_calculator_server script to /home/vfran/ros2_ws/install/calculator/lib/calculator
+[1.262s] writing list of installed files to '/home/vfran/ros2_ws/build/calculator/install.log'
+[1.322s] Invoked command in '/home/vfran/ros2_ws/src/calculator' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/calculator/prefix_override:/home/vfran/ros2_ws/install/calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/calculator build --build-base /home/vfran/ros2_ws/build/calculator/build install --record /home/vfran/ros2_ws/build/calculator/install.log --single-version-externally-managed install_data

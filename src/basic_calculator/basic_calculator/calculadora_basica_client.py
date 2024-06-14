@@ -30,7 +30,6 @@ class CalculadoraBasicaClientNode(Node):
     def callback_call_calc(self, future, request, response):
         try:
             response.resultado=future.result()
-            res
             self.get_logger().info(str(request.a) + str(request.op) + str(request.b) + "=" + str(response.result))
 
         except Exception as e:
