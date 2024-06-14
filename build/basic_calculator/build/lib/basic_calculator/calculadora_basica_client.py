@@ -10,7 +10,7 @@ class CalculadoraBasicaClientNode(Node):
     def __init__(self):
         super().__init__("client")
         self.get_logger().info("O cliente da calculadora está rodando")
-        self.call_calculator_server("+", 3.0, 4.0)
+        self.call_calculator_server(3.0, 4.0, '+')
 
     def call_calculator_server(self, a, b, op):
         client = self.create_client(Calc, "calculadora_basica")

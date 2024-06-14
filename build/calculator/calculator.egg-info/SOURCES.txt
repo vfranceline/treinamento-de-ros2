@@ -10,6 +10,7 @@ setup.py
 ../../build/calculator/calculator.egg-info/zip-safe
 calculator/__init__.py
 calculator/calculator_client.py
+calculator/calculator_client_param.py
 calculator/calculator_server.py
 calculator/geometric_calculator_server.py
 resource/calculator

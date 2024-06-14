@@ -23,6 +23,7 @@ setup(
             'calculator_server = calculator.calculator_server:main',
             'calculator_client = calculator.calculator_client:main',
             'geometric_calculator_server = calculator.geometric_calculator_server:main',
+            'calculator_client_param = calculator.calculator_client_param:main'
         ],
     },
 )
