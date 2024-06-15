@@ -22,6 +22,9 @@ setup(
         'console_scripts': [
             'radiostation = radio.radiostation:main',
             'radioreceiver = radio.radioreceiver:main',
+            'educadora = radio.educadora:main',
+            'receiver_fm = radio.radioreceiver_fm:main',
+            'receiver_am = radio.radioreceiver_am:main',
         ],
     },
 )
