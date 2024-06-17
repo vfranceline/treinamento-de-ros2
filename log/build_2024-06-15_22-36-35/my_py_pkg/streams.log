@@ -1,0 +1,22 @@
+[1.465s] Invoking command in '/home/vfran/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/my_bringup PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vfran/ros2_ws/build/my_py_pkg/build install --record /home/vfran/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.025s] running egg_info
+[2.026s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.026s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.027s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.027s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.028s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.031s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.033s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.033s] running build
+[2.034s] running build_py
+[2.034s] running install
+[2.035s] running install_lib
+[2.038s] running install_data
+[2.039s] running install_egg_info
+[2.042s] removing '/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.043s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.045s] running install_scripts
+[2.091s] Installing hw_status_publisher script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.092s] Installing py_node script to /home/vfran/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[2.092s] writing list of installed files to '/home/vfran/ros2_ws/build/my_py_pkg/install.log'
+[2.145s] Invoked command in '/home/vfran/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/vfran/ros2_ws/install/my_interfaces:/home/vfran/ros2_ws/install/my_bringup PYTHONPATH=/home/vfran/ros2_ws/build/my_py_pkg/prefix_override:/home/vfran/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/vfran/ros2_ws/build/my_py_pkg/build install --record /home/vfran/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

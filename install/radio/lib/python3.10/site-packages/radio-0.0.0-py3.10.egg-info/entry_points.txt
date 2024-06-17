@@ -1,4 +1,7 @@
 [console_scripts]
+educadora = radio.educadora:main
 radioreceiver = radio.radioreceiver:main
 radiostation = radio.radiostation:main
+receiver_am = radio.radioreceiver_am:main
+receiver_fm = radio.radioreceiver_fm:main
 

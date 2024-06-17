@@ -1,0 +1,200 @@
+[0.711s] Invoking command in '/home/vfran/ros2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble /usr/local/bin/cmake --build /home/vfran/ros2_ws/build/my_interfaces -- -j16 -l16
+[1.337s] [  2%] Built target my_interfaces__cpp
+[1.338s] [ 12%] Built target my_interfaces__rosidl_generator_c
+[1.338s] [ 12%] Built target ament_cmake_python_copy_my_interfaces
+[1.339s] [ 31%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[1.341s] [ 34%] Built target my_interfaces__rosidl_typesupport_cpp
+[1.342s] [ 55%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[1.343s] [ 55%] Built target my_interfaces__rosidl_typesupport_c
+[1.343s] [ 65%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.343s] [ 76%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[1.343s] [ 76%] Built target my_interfaces
+[1.344s] [ 78%] Built target my_interfaces__py
+[1.344s] [ 87%] Built target my_interfaces__rosidl_generator_py
+[1.344s] [ 95%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.345s] [ 95%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[1.345s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.384s] running egg_info
+[1.386s] writing my_interfaces.egg-info/PKG-INFO
+[1.387s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[1.387s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[1.392s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.394s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.447s] [100%] Built target ament_cmake_python_build_my_interfaces_egg
+[1.961s] Invoked command in '/home/vfran/ros2_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble /usr/local/bin/cmake --build /home/vfran/ros2_ws/build/my_interfaces -- -j16 -l16
+[2.249s] Invoking command in '/home/vfran/ros2_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble /usr/local/bin/cmake --install /home/vfran/ros2_ws/build/my_interfaces
+[2.258s] -- Install configuration: ""
+[2.259s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[2.259s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.259s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.260s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.h
+[2.260s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.260s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__functions.h
+[2.261s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.h
+[2.261s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__type_support.h
+[2.261s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__functions.c
+[2.261s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__struct.h
+[2.262s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__functions.c
+[2.262s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.h
+[2.262s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.h
+[2.263s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/calc.h
+[2.263s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.263s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.h
+[2.263s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.263s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.h
+[2.264s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.h
+[2.264s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.c
+[2.264s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__functions.h
+[2.265s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.265s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[2.265s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[2.265s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[2.266s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.266s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.266s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.266s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_fastrtps_c.h
+[2.267s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_c.h
+[2.267s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.267s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.268s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.268s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h
+[2.268s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.268s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.269s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.269s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.269s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_introspection_c.h
+[2.269s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_c.h
+[2.270s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__type_support.c
+[2.270s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.c
+[2.270s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.270s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.270s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.271s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h
+[2.271s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.c
+[2.271s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[2.271s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[2.271s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.272s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.272s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/compute_rectangle_area.hpp
+[2.272s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/calc.hpp
+[2.272s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.273s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__struct.hpp
+[2.273s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__builder.hpp
+[2.273s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__struct.hpp
+[2.273s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__traits.hpp
+[2.273s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__builder.hpp
+[2.274s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__traits.hpp
+[2.274s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.274s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/hardware_status.hpp
+[2.274s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.275s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__traits.hpp
+[2.275s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__builder.hpp
+[2.275s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__struct.hpp
+[2.275s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.275s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.276s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.276s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/dds_fastrtps
+[2.276s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_fastrtps_cpp.hpp
+[2.276s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_fastrtps_cpp.hpp
+[2.276s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.277s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.277s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps
+[2.277s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.278s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.278s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.278s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[2.279s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv
+[2.279s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail
+[2.279s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__rosidl_typesupport_introspection_cpp.hpp
+[2.279s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__type_support.cpp
+[2.280s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/compute_rectangle_area__type_support.cpp
+[2.280s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/srv/detail/calc__rosidl_typesupport_introspection_cpp.hpp
+[2.280s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[2.280s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[2.280s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp
+[2.280s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/hardware_status__type_support.cpp
+[2.281s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.281s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[2.281s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[2.281s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[2.282s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info
+[2.282s] -- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.282s] -- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.282s] -- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.282s] -- Installing: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.282s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces
+[2.283s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv
+[2.283s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area_s.c
+[2.283s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/__init__.py
+[2.283s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_calc_s.c
+[2.284s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_compute_rectangle_area.py
+[2.284s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv/_calc.py
+[2.284s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[2.284s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[2.284s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.284s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg
+[2.285s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status_s.c
+[2.285s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[2.285s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_hardware_status.py
+[2.286s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[2.286s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.286s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.286s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.287s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.355s] Listing '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[2.356s] Listing '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[2.356s] Listing '/home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/srv'...
+[2.366s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.367s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.368s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.369s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[2.369s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.idl
+[2.370s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.idl
+[2.370s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc.idl
+[2.371s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/msg/HardwareStatus.msg
+[2.371s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea.srv
+[2.371s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Request.msg
+[2.372s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/ComputeRectangleArea_Response.msg
+[2.372s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc.srv
+[2.372s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc_Request.msg
+[2.372s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/srv/Calc_Response.msg
+[2.373s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[2.373s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[2.373s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[2.374s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[2.374s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[2.374s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[2.374s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[2.375s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[2.375s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[2.375s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[2.375s] -- Installing: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[2.376s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[2.376s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[2.376s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.376s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.377s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.377s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.377s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.377s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[2.377s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.378s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[2.378s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.378s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.378s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.378s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.379s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[2.379s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.379s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[2.379s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.379s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.380s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.381s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.382s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.383s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.383s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.384s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.384s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[2.385s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[2.386s] -- Up-to-date: /home/vfran/ros2_ws/install/my_interfaces/share/my_interfaces/package.xml
+[2.386s] Invoked command in '/home/vfran/ros2_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vfran/ros2_ws/install/radio:/home/vfran/ros2_ws/install/my_py_pkg:/home/vfran/ros2_ws/install/calculator:/home/vfran/ros2_ws/install/basic_calculator:/opt/ros/humble /usr/local/bin/cmake --install /home/vfran/ros2_ws/build/my_interfaces

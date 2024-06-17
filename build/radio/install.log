@@ -1,8 +1,14 @@
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/__init__.py
+/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/educadora.py
+/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/radioreceiver_fm.py
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/radioreceiver.py
+/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/radioreceiver_am.py
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/radiostation.py
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/__pycache__/__init__.cpython-310.pyc
+/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/__pycache__/educadora.cpython-310.pyc
+/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/__pycache__/radioreceiver_fm.cpython-310.pyc
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/__pycache__/radioreceiver.cpython-310.pyc
+/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/__pycache__/radioreceiver_am.cpython-310.pyc
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio/__pycache__/radiostation.cpython-310.pyc
 /home/vfran/ros2_ws/install/radio/share/ament_index/resource_index/packages/radio
 /home/vfran/ros2_ws/install/radio/share/radio/package.xml
@@ -13,5 +19,8 @@
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info/PKG-INFO
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info/SOURCES.txt
+/home/vfran/ros2_ws/install/radio/lib/radio/educadora
 /home/vfran/ros2_ws/install/radio/lib/radio/radioreceiver
 /home/vfran/ros2_ws/install/radio/lib/radio/radiostation
+/home/vfran/ros2_ws/install/radio/lib/radio/receiver_am
+/home/vfran/ros2_ws/install/radio/lib/radio/receiver_fm

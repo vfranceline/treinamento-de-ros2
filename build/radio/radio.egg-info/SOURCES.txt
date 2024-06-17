@@ -9,7 +9,10 @@ setup.py
 ../../build/radio/radio.egg-info/top_level.txt
 ../../build/radio/radio.egg-info/zip-safe
 radio/__init__.py
+radio/educadora.py
 radio/radioreceiver.py
+radio/radioreceiver_am.py
+radio/radioreceiver_fm.py
 radio/radiostation.py
 resource/radio
 test/test_copyright.py
