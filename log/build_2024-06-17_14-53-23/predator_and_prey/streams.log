@@ -1,0 +1,24 @@
+[1.910s] Invoking command in '/home/vfran/ros2_ws/src/predator_and_prey': PYTHONPATH=/home/vfran/ros2_ws/build/predator_and_prey/prefix_override:/home/vfran/ros2_ws/install/predator_and_prey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/predator_and_prey build --build-base /home/vfran/ros2_ws/build/predator_and_prey/build install --record /home/vfran/ros2_ws/build/predator_and_prey/install.log --single-version-externally-managed install_data
+[2.217s] running egg_info
+[2.219s] writing ../../build/predator_and_prey/predator_and_prey.egg-info/PKG-INFO
+[2.219s] writing dependency_links to ../../build/predator_and_prey/predator_and_prey.egg-info/dependency_links.txt
+[2.219s] writing entry points to ../../build/predator_and_prey/predator_and_prey.egg-info/entry_points.txt
+[2.219s] writing requirements to ../../build/predator_and_prey/predator_and_prey.egg-info/requires.txt
+[2.219s] writing top-level names to ../../build/predator_and_prey/predator_and_prey.egg-info/top_level.txt
+[2.222s] reading manifest file '../../build/predator_and_prey/predator_and_prey.egg-info/SOURCES.txt'
+[2.223s] writing manifest file '../../build/predator_and_prey/predator_and_prey.egg-info/SOURCES.txt'
+[2.223s] running build
+[2.224s] running build_py
+[2.224s] copying predator_and_prey/predator_controller.py -> /home/vfran/ros2_ws/build/predator_and_prey/build/lib/predator_and_prey
+[2.224s] running install
+[2.224s] running install_lib
+[2.226s] copying /home/vfran/ros2_ws/build/predator_and_prey/build/lib/predator_and_prey/predator_controller.py -> /home/vfran/ros2_ws/install/predator_and_prey/lib/python3.10/site-packages/predator_and_prey
+[2.227s] byte-compiling /home/vfran/ros2_ws/install/predator_and_prey/lib/python3.10/site-packages/predator_and_prey/predator_controller.py to predator_controller.cpython-310.pyc
+[2.227s] running install_data
+[2.227s] running install_egg_info
+[2.229s] removing '/home/vfran/ros2_ws/install/predator_and_prey/lib/python3.10/site-packages/predator_and_prey-0.0.0-py3.10.egg-info' (and everything under it)
+[2.229s] Copying ../../build/predator_and_prey/predator_and_prey.egg-info to /home/vfran/ros2_ws/install/predator_and_prey/lib/python3.10/site-packages/predator_and_prey-0.0.0-py3.10.egg-info
+[2.231s] running install_scripts
+[2.258s] Installing predator_controller script to /home/vfran/ros2_ws/install/predator_and_prey/lib/predator_and_prey
+[2.259s] writing list of installed files to '/home/vfran/ros2_ws/build/predator_and_prey/install.log'
+[2.343s] Invoked command in '/home/vfran/ros2_ws/src/predator_and_prey' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/predator_and_prey/prefix_override:/home/vfran/ros2_ws/install/predator_and_prey/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/predator_and_prey build --build-base /home/vfran/ros2_ws/build/predator_and_prey/build install --record /home/vfran/ros2_ws/build/predator_and_prey/install.log --single-version-externally-managed install_data

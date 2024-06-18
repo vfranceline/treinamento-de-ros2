@@ -1,0 +1,22 @@
+[1.904s] Invoking command in '/home/vfran/ros2_ws/src/basic_calculator': PYTHONPATH=/home/vfran/ros2_ws/build/basic_calculator/prefix_override:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/basic_calculator build --build-base /home/vfran/ros2_ws/build/basic_calculator/build install --record /home/vfran/ros2_ws/build/basic_calculator/install.log --single-version-externally-managed install_data
+[2.209s] running egg_info
+[2.210s] writing ../../build/basic_calculator/basic_calculator.egg-info/PKG-INFO
+[2.211s] writing dependency_links to ../../build/basic_calculator/basic_calculator.egg-info/dependency_links.txt
+[2.211s] writing entry points to ../../build/basic_calculator/basic_calculator.egg-info/entry_points.txt
+[2.211s] writing requirements to ../../build/basic_calculator/basic_calculator.egg-info/requires.txt
+[2.211s] writing top-level names to ../../build/basic_calculator/basic_calculator.egg-info/top_level.txt
+[2.213s] reading manifest file '../../build/basic_calculator/basic_calculator.egg-info/SOURCES.txt'
+[2.214s] writing manifest file '../../build/basic_calculator/basic_calculator.egg-info/SOURCES.txt'
+[2.214s] running build
+[2.215s] running build_py
+[2.215s] running install
+[2.215s] running install_lib
+[2.217s] running install_data
+[2.218s] running install_egg_info
+[2.220s] removing '/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator-0.0.0-py3.10.egg-info' (and everything under it)
+[2.220s] Copying ../../build/basic_calculator/basic_calculator.egg-info to /home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages/basic_calculator-0.0.0-py3.10.egg-info
+[2.221s] running install_scripts
+[2.249s] Installing calc_basic_client script to /home/vfran/ros2_ws/install/basic_calculator/lib/basic_calculator
+[2.250s] Installing calc_basic_server script to /home/vfran/ros2_ws/install/basic_calculator/lib/basic_calculator
+[2.250s] writing list of installed files to '/home/vfran/ros2_ws/build/basic_calculator/install.log'
+[2.337s] Invoked command in '/home/vfran/ros2_ws/src/basic_calculator' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/basic_calculator/prefix_override:/home/vfran/ros2_ws/install/basic_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/basic_calculator build --build-base /home/vfran/ros2_ws/build/basic_calculator/build install --record /home/vfran/ros2_ws/build/basic_calculator/install.log --single-version-externally-managed install_data

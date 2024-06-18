@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/predador_and_prey/predador_and_prey.egg-info
+writing ../../build/predador_and_prey/predador_and_prey.egg-info/PKG-INFO
+writing dependency_links to ../../build/predador_and_prey/predador_and_prey.egg-info/dependency_links.txt
+writing entry points to ../../build/predador_and_prey/predador_and_prey.egg-info/entry_points.txt
+writing requirements to ../../build/predador_and_prey/predador_and_prey.egg-info/requires.txt
+writing top-level names to ../../build/predador_and_prey/predador_and_prey.egg-info/top_level.txt
+writing manifest file '../../build/predador_and_prey/predador_and_prey.egg-info/SOURCES.txt'
+reading manifest file '../../build/predador_and_prey/predador_and_prey.egg-info/SOURCES.txt'
+writing manifest file '../../build/predador_and_prey/predador_and_prey.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vfran/ros2_ws/build/predador_and_prey/build
+creating /home/vfran/ros2_ws/build/predador_and_prey/build/lib
+creating /home/vfran/ros2_ws/build/predador_and_prey/build/lib/predador_and_prey
+copying predador_and_prey/__init__.py -> /home/vfran/ros2_ws/build/predador_and_prey/build/lib/predador_and_prey
+copying predador_and_prey/predador_controller.py -> /home/vfran/ros2_ws/build/predador_and_prey/build/lib/predador_and_prey
+running install
+running install_lib
+creating /home/vfran/ros2_ws/install/predador_and_prey/lib/python3.10/site-packages/predador_and_prey
+copying /home/vfran/ros2_ws/build/predador_and_prey/build/lib/predador_and_prey/__init__.py -> /home/vfran/ros2_ws/install/predador_and_prey/lib/python3.10/site-packages/predador_and_prey
+copying /home/vfran/ros2_ws/build/predador_and_prey/build/lib/predador_and_prey/predador_controller.py -> /home/vfran/ros2_ws/install/predador_and_prey/lib/python3.10/site-packages/predador_and_prey
+byte-compiling /home/vfran/ros2_ws/install/predador_and_prey/lib/python3.10/site-packages/predador_and_prey/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vfran/ros2_ws/install/predador_and_prey/lib/python3.10/site-packages/predador_and_prey/predador_controller.py to predador_controller.cpython-310.pyc
+running install_data
+creating /home/vfran/ros2_ws/install/predador_and_prey/share/ament_index
+creating /home/vfran/ros2_ws/install/predador_and_prey/share/ament_index/resource_index
+creating /home/vfran/ros2_ws/install/predador_and_prey/share/ament_index/resource_index/packages
+copying resource/predador_and_prey -> /home/vfran/ros2_ws/install/predador_and_prey/share/ament_index/resource_index/packages
+copying package.xml -> /home/vfran/ros2_ws/install/predador_and_prey/share/predador_and_prey
+running install_egg_info
+Copying ../../build/predador_and_prey/predador_and_prey.egg-info to /home/vfran/ros2_ws/install/predador_and_prey/lib/python3.10/site-packages/predador_and_prey-0.0.0-py3.10.egg-info
+running install_scripts
+Installing predator_controller script to /home/vfran/ros2_ws/install/predador_and_prey/lib/predador_and_prey
+writing list of installed files to '/home/vfran/ros2_ws/build/predador_and_prey/install.log'

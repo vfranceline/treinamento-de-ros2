@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/predador_and_prey/predador_and_prey.egg-info/PKG-INFO
+../../build/predador_and_prey/predador_and_prey.egg-info/SOURCES.txt
+../../build/predador_and_prey/predador_and_prey.egg-info/dependency_links.txt
+../../build/predador_and_prey/predador_and_prey.egg-info/entry_points.txt
+../../build/predador_and_prey/predador_and_prey.egg-info/requires.txt
+../../build/predador_and_prey/predador_and_prey.egg-info/top_level.txt
+../../build/predador_and_prey/predador_and_prey.egg-info/zip-safe
+predador_and_prey/__init__.py
+predador_and_prey/predador_controller.py
+resource/predador_and_prey
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,25 @@
+[1.866s] Invoking command in '/home/vfran/ros2_ws/src/radio': PYTHONPATH=/home/vfran/ros2_ws/build/radio/prefix_override:/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/radio build --build-base /home/vfran/ros2_ws/build/radio/build install --record /home/vfran/ros2_ws/build/radio/install.log --single-version-externally-managed install_data
+[2.166s] running egg_info
+[2.167s] writing ../../build/radio/radio.egg-info/PKG-INFO
+[2.167s] writing dependency_links to ../../build/radio/radio.egg-info/dependency_links.txt
+[2.168s] writing entry points to ../../build/radio/radio.egg-info/entry_points.txt
+[2.168s] writing requirements to ../../build/radio/radio.egg-info/requires.txt
+[2.168s] writing top-level names to ../../build/radio/radio.egg-info/top_level.txt
+[2.169s] reading manifest file '../../build/radio/radio.egg-info/SOURCES.txt'
+[2.171s] writing manifest file '../../build/radio/radio.egg-info/SOURCES.txt'
+[2.171s] running build
+[2.172s] running build_py
+[2.172s] running install
+[2.172s] running install_lib
+[2.174s] running install_data
+[2.174s] running install_egg_info
+[2.176s] removing '/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info' (and everything under it)
+[2.177s] Copying ../../build/radio/radio.egg-info to /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info
+[2.178s] running install_scripts
+[2.208s] Installing educadora script to /home/vfran/ros2_ws/install/radio/lib/radio
+[2.209s] Installing radioreceiver script to /home/vfran/ros2_ws/install/radio/lib/radio
+[2.209s] Installing radiostation script to /home/vfran/ros2_ws/install/radio/lib/radio
+[2.209s] Installing receiver_am script to /home/vfran/ros2_ws/install/radio/lib/radio
+[2.210s] Installing receiver_fm script to /home/vfran/ros2_ws/install/radio/lib/radio
+[2.210s] writing list of installed files to '/home/vfran/ros2_ws/build/radio/install.log'
+[2.275s] Invoked command in '/home/vfran/ros2_ws/src/radio' returned '0': PYTHONPATH=/home/vfran/ros2_ws/build/radio/prefix_override:/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/radio build --build-base /home/vfran/ros2_ws/build/radio/build install --record /home/vfran/ros2_ws/build/radio/install.log --single-version-externally-managed install_data

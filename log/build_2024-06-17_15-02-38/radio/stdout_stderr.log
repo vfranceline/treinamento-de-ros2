@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/radio/radio.egg-info/PKG-INFO
+writing dependency_links to ../../build/radio/radio.egg-info/dependency_links.txt
+writing entry points to ../../build/radio/radio.egg-info/entry_points.txt
+writing requirements to ../../build/radio/radio.egg-info/requires.txt
+writing top-level names to ../../build/radio/radio.egg-info/top_level.txt
+reading manifest file '../../build/radio/radio.egg-info/SOURCES.txt'
+writing manifest file '../../build/radio/radio.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/radio/radio.egg-info to /home/vfran/ros2_ws/install/radio/lib/python3.10/site-packages/radio-0.0.0-py3.10.egg-info
+running install_scripts
+Installing educadora script to /home/vfran/ros2_ws/install/radio/lib/radio
+Installing radioreceiver script to /home/vfran/ros2_ws/install/radio/lib/radio
+Installing radiostation script to /home/vfran/ros2_ws/install/radio/lib/radio
+Installing receiver_am script to /home/vfran/ros2_ws/install/radio/lib/radio
+Installing receiver_fm script to /home/vfran/ros2_ws/install/radio/lib/radio
+writing list of installed files to '/home/vfran/ros2_ws/build/radio/install.log'

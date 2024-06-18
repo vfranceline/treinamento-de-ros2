@@ -1,0 +1,3 @@
+[console_scripts]
+predator_controller = predador_and_prey.predator_controller:main
+

@@ -1,0 +1,6 @@
+source;share/predador_and_prey/hook/pythonpath.ps1
+source;share/predador_and_prey/hook/pythonpath.dsv
+source;share/predador_and_prey/hook/pythonpath.sh
+source;share/predador_and_prey/hook/ament_prefix_path.ps1
+source;share/predador_and_prey/hook/ament_prefix_path.dsv
+source;share/predador_and_prey/hook/ament_prefix_path.sh
